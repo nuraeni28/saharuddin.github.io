@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Sahar Project</title>
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+  <body class="app sidebar-mini">
+    <!-- Navbar-->
+    <header class="app-header"><a class="app-header__logo" href="index.html">Sahar Food</a>
+      <ul class="app-nav">
+        <li class="app-search">
+          <input class="app-search__input" type="search" placeholder="Search">
+        </li>
+      </ul>
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="images/sahar.jpg" height="100px" width="90px" alt="User Image">
+        <div>
+          <p class="app-sidebar__user-name">Saharuddin</p>
+          <p class="app-sidebar__user-designation">42519048</p>
+        </div>
+      </div>
+      <ul class="app-menu">
+        <li><a class="app-menu__item active" href="dashboard.html"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
+        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">About</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> profile makanan</a></li>
+            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Data menu makanan</a></li>
+            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Notifikasi</a></li>
+            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Bantuan</a></li>
+          </ul>
+        </li>
+        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Tables</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i>Tables Pembelian</a></li>
+            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i>Tables penjualan</a></li>
+          </ul>
+        </li>
+        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-file-text"></i><span class="app-menu__label">Images</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Image_1</a></li>
+            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Image_2</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </aside>
+    <main class="app-content">
+      <div class="app-title">
+        <div>
+          <h1><i class="fa fa-dashboard"></i> Dashboard</h1>
+        </div>
+        <ul class="app-breadcrumb breadcrumb">
+          <li class="breadcrumb-item"><img src="images/home1.png" width="30 px" height="20 px"></i></li>
+          <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="widget-small primary coloured-icon"><i class="icon fa fa-users fa-3x"></i>
+            <div class="info">
+              <h4>Ikan</h4>
+              <p><b>Rp15.000/porsi</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="widget-small info coloured-icon"><i class="icon fa fa-thumbs-o-up fa-3x"></i>
+            <div class="info">
+              <h4>Ayam</h4>
+              <p><b>Rp25.000/porsi</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="widget-small warning coloured-icon"><i class="icon fa fa-files-o fa-3x"></i>
+            <div class="info">
+              <h4>Coto</h4>
+              <p><b>Rp10.000/porsi</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="widget-small danger coloured-icon"><i class="icon fa fa-star fa-3x"></i>
+            <div class="info">
+              <h4>Bassang</h4>
+              <p><b>Rp 5000/porsi</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="tile">
+            <h3 class="tile-title">Makanan Khas Gowa</h3>
+            <img class="app-sidebar__user-avatar" src="images/makanan1.jpg" height="350px" width="495px">
+            <img class="app-sidebar__user-avatar" src="images/makanan4.jpeg" height="350px" width="490px">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="tile">
+            <img class="app-sidebar__user-avatar" src="images/makanan2.jpg" height="350px" width="495px">
+            <img class="app-sidebar__user-avatar" src="images/makanan3.jpg" height="350px" width="490px">
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/plugins/pace.min.js"></script>
+  </body>
+</html>
